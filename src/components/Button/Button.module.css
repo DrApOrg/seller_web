@@ -1,0 +1,16 @@
+.container {
+  width: 420px;
+  height: 80px;
+  border-radius: 25px;
+  font-size: 30px;
+  margin-right: 10px;
+}
+.background {
+  background: linear-gradient(to right, #586969, #eaebeb);
+  color: black;
+}
+.icon {
+  font-size: 25px;
+  margin-right: 15px;
+  color: #44cfee;
+}

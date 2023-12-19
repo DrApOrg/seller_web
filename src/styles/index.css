@@ -1,0 +1,51 @@
+@import "./normalize.css";
+@font-face {
+  font-family: "Poppins";
+  src: url("../public/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("../public/fonts/Poppins-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("../public/fonts/Poppins-SemiBold.ttf") format("truetype");
+}
+:root {
+  --background-primary: #ffffff;
+  --background-secondary: #54bab9;
+  --linear-gradient-primary: linear-gradient(to right, #44cfee, #1e94e9);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+  color: inherit;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #f4f8f9;
+}
+h1 {
+  font-family: "Poppins-Bold";
+}
+input {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+button {
+  background: none;
+  border: none;
+  font-family: "Poppins-SemiBold";
+}

@@ -1,0 +1,89 @@
+.container {
+  background-color: white;
+  border-radius: 20px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 20px;
+  overflow-x: auto; /* Permite hacer scroll horizontal en pantallas pequeñas */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Ajustes específicos para pantallas pequeñas */
+@media screen and (max-width: 600px) {
+  .table {
+    overflow-x: auto;
+    display: block;
+  }
+
+  .table thead,
+  .table tbody,
+  .table th,
+  .table td,
+  .table tr {
+    display: block;
+  }
+
+  .table thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .table tr {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+  }
+
+  .table td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  .table td:before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    content: attr(data-label);
+    font-weight: bold;
+  }
+}
+
+.img {
+  width: 100px;
+}
+
+.button {
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}

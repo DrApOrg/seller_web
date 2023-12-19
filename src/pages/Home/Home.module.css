@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+.containerForm {
+  width: 30%;
+  height: 70%;
+  background-color: white;
+  border-radius: 40px 0 0 40px;
+  text-align: center;
+}
+
+.containerImage {
+  width: 30%;
+  height: 70%;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 40px 40px 0;
+}
+
+.image {
+  border-radius: 20px;
+  width: 90%;
+}
+/* Dentro del archivo de estilos styles.module.css o similar */
+
+/* Estilos para el formulario */
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+/* Estilos para las etiquetas de los campos */
+.form label {
+  margin-bottom: 10px;
+}
+
+/* Estilos para los campos de entrada */
+.form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+/* Estilos para el botón de envío */
+.form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+}
